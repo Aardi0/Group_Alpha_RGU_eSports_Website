@@ -1,0 +1,317 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ............. links ............. -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ..................... start header section ..................... -->
+    <header class="header_sec fixed-top bg_black">
+        <div class="container container_lg">
+            <div class="d-flex justify-content-between align-items-center">
+
+                <!-- left section -->
+                <div class="header_left_sec d-flex align-items-center">
+                    <a href="home.html">
+                        <img src="assets/img/RGU.png" alt="RGU" class="img-fluid header_sec_logo">
+                    </a>
+
+                    <div class="header_navLinkArea" id="header_navLinkArea">
+                        <div class="nav_backDrop d-xl-none" id="nav_backDrop"></div>
+                        <div class="header_navLinksBox">
+                            <button class="menu_clsBtn d-xl-none" id="menu_clsBtn"></button>
+                            <ul class="header_navLinks">
+                                <li class="header_navItem">
+                                    <a class="header_navLink" href="#">Games</a>
+
+                                    <button class="subNavToggleBtn">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="header_subNav">
+                                        <li class="header_subNav_item">
+                                            <a class="header_subNav_link" href="valorant.html">
+                                                <img src="assets/img/valorant.png" alt="valorant">
+                                                <span>Valorant</span>
+                                            </a>
+                                        </li>
+                                        <li class="header_subNav_item">
+                                            <a class="header_subNav_link" href="#">
+                                                <img src="assets/img/counter_strike.png" alt="counter strike">
+                                                <span>CS GO</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                                <li class="header_navItem">
+                                    <a class="header_navLink" href= "product.html">Shop</a>
+                                </li>
+                                <li class="header_navItem">
+                                    <a class="header_navLink" href="#">Events</a>
+                                </li>
+                                <li class="header_navItem">
+                                    <a class="header_navLink" href="#">Image Gallery</a>
+                                </li>
+                                <li class="header_navItem">
+                                    <a class="header_navLink" href="#">Calendar</a>
+                                </li>
+                                <li class="header_navItem">
+                                    <a class="header_navLink" href="#">Current members</a>
+                                    <button class="subNavToggleBtn">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="header_subNav">
+                                        <li class="header_subNav_item">
+                                            <a class="header_subNav_link" href="#">
+                                                <span>Esports</span>
+                                            </a>
+                                        </li>
+                                        <li class="header_subNav_item">
+                                            <a class="header_subNav_link" href="#">
+                                                <span>Teams</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header_navItem">
+                                    <a class="header_navLink active" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="header_navItem d-xl-none">
+                                    <a href="#" class="btn header_actBtn btn-outline-light me-2">Log In</a>
+                                    <a href="#" class="btn header_actBtn btn-light">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- right section -->
+                <div class="header_right_sec ms-auto">
+                    <div class="btn-group me-2">
+                        <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          En
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item " href="#">BN</a></li>
+                            <li><a class="dropdown-item" href="#">FR</a></li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="btn header_actBtn btn-outline-light ms-2 d-none d-xl-inline-block">Log In</a>
+                    <a href="#" class="btn header_actBtn btn-light ms-2 d-none d-xl-inline-block">Sign Up</a>
+                </div>
+
+                <!-- menu toggle button -->
+                <button class="menu_toggleBtn d-xl-none" id="menu_toggleBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- ..................... End header section ..................... -->
+
+    <!-- ..................... start index section ..................... -->
+
+    <!-- Banner Class -->
+    <div class="banner">
+        <div class="banner-image">
+        <img src="/assets/img/valorantbanner.jpg" alt="valorant-banner" id = "valorantbanner">
+    </div>
+    <div class="banner-caption">
+        <h5>VALORANT</h5>
+    </div>
+    </div>
+
+    <!-- Three Column Text Block -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 content-left">
+                <h1 style="font-size:200%; color: purple; ">Roster</h1>
+                <img src="/assets/img/shaq.jpg" alt="playerheadshot" id = "playerheadshot0">
+                <div class="player-info0">
+                    <h5> Shaquile O'Neal 'DJ Diesel'</h5> 
+                    <p> Top fragger duelist, absolute menance on Jett with the operator.</p>
+                </div>
+            
+                <br>
+                <img src="/assets/img/willsmith.jpg" alt="playerheadshot" id = "playerheadshot1">
+                <div class="player-info1">
+                    <h5>Will Smith 'FreshPrince' </h5>
+                    <p> The next best Reyna, slaps the soul out of his opponents.</p>
+                </div>
+                <br>
+                <img src="/assets/img/lebronjames.jpeg" alt="playerheadshot" id = "playerheadshot2">
+                <div class="player-info2">
+                    <h5>LeBron James 'Akron Hammer'</h5>
+                    <p> Big dunks, Raze main </p>
+                </div>
+                <br>
+                <img src="/assets/img/obama.jpg" alt="playerheadshot" id = "playerheadshot3">
+                <div class="player-info3">
+                    <h5>Obama 'Barack'</h5>
+                    <p> The Sova IGL, outplays all</p>
+                </div>
+                <br>
+                <img src="/assets/img/headshot.jpg" alt="playerheadshot" id = "playerheadshot4">
+                <div class="player-info4">
+                    <h5>Steve Robinson 'Nteve'</h5>
+                    <p> A reliable sage, who'll revive you every round.</p>
+                </div>
+                <br>
+
+            </div>
+            <div class="col-sm-4 content-center">
+                <div class="game-info">
+                    <h1 style = "font-size:200%; color: purple;">About Valorant</h1>
+                    <p>Valorant is a team-based first-person hero shooter set in the near future. Players play as one of a set of Agents, characters designed based on several countries and cultures around the world. In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, orbs, or objectives.</p>
+                </div>
+                <div class="achievements">
+                    <h1 style = "font-size:200%; color: purple;" >Team Achievements</h1>
+                    <p>
+                        <ul>
+                            <li>VCT Masters Regionals Winners</li>
+                            <li>VCT Masters Reykjavík Winners</li>
+                            <li>VCT Masters Berlin Winners</li>
+                            <li>VCT Champions Winners</li>                           
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 content-right">
+                <div class="video">
+                    <h1 style = "font-size:200%; color: purple; ">Valorant Trailer</h1>
+                    <p>Short cinematic trailer from the launch of valorant</p> 
+                </div>
+                <iframe width="600" height="337.50" src="https://www.youtube.com/embed/e_E9W2vsRbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>    
+        </div>
+    </div>
+
+
+    <!-- ..................... End index section ..................... -->
+
+
+    <!-- ..................... start footer section ..................... -->
+    <footer class="footer_sec bg_black">
+        <div class="container container_lg">
+            <div class="row gy-4 align-items-center">
+                <div class="col-xl-3">
+                    <div class="footer_logo_area">
+                        <a href="index.html" class="footer_logo">
+                            <img class="img-fluid w-100" src="assets/img/RGU.png" alt="RGU" >
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <ul class="sponsor_list">
+                        <li class="sponsor_item">
+                            <a class="sponsor_link" href="https://www.intel.co.uk/">
+                                <img src="assets/img/intel.png" alt="logo">
+                            </a>
+                        </li>
+                        <li class="sponsor_item">
+                            <a class="sponsor_link" href="https://www.bmw.co.uk/">
+                                <img src="assets/img/bmw_logo.png" alt="logo">
+                            </a>
+                        </li>
+                        <li class="sponsor_item">
+                            <a class="sponsor_link" href="https://www.crypto.com/">
+                                <img src="assets/img/crypto_logo.png" alt="logo">
+                            </a>
+                        </li>
+                        <li class="sponsor_item">
+                            <a class="sponsor_link" href="https://www.jacklinks.com/">
+                                <img src="assets/img/Jack_links_logo.png" alt="logo">
+                            </a>
+                        </li>
+                        <li class="sponsor_item">
+                            <a class="sponsor_link" href="https://www.loreal-paris.co.uk/men">
+                                <img src="assets/img/loreal-men-logo.png" alt="logo">
+                            </a>
+                        </li>
+                        <li class="sponsor_item">
+                            <a class="sponsor_link" href="https://hisense.co.uk/">
+                                <img src="assets/img/hisense-logo.png" alt="logo">
+                            </a>
+                        </li>
+                        <li class="sponsor_item">
+                            <a class="sponsor_link" href="https://www.letou.com/">
+                                <img src="assets/img/letou_logo.png" alt="logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-4">
+                    <ul class="social_links">
+                        <li class="social_link_item">
+                            <a href="https://www.twitter.com/" class="social_link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social_link_item">
+                            <a href="https://www.twitch.tv/directory" class="social_link">
+                                <i class="fa-brands fa-twitch"></i>
+                            </a>
+                        </li>
+                        <li class="social_link_item">
+                            <a href="https://www.youtube.com/" class="social_link">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="social_link_item">
+                            <a href="https://www.instagram.com/" class="social_link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="social_link_item">
+                            <a href="https://www.tiktok.com/en/" class="social_link">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </li>
+                        <li class="social_link_item">
+                            <a href="https://en-gb.facebook.com/" class="social_link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social_link_item">
+                            <a href="https://discord.com/" class="social_link">
+                                <i class="fa-brands fa-discord"></i>
+                            </a>
+                        </li>
+                        <li class="social_link_item">
+                            <a href="https://github.com/Aardi0/web-design" class="social_link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ..................... end footer section ..................... -->
+
+
+    <!-- ............. scripts ............. -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
